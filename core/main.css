@@ -1,0 +1,12 @@
+.h1{
+    background-color: white;
+    animation-name: key1 ;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes key1 {
+    33%{background-color:brown; color: white}
+    66%{background-color: deepskyblue}
+    99%{background-color: black; color: white}
+}
